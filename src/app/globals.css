@@ -19,3 +19,15 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+/* @keyframes gradientAnimation {
+  0% { background: linear-gradient(to right, rgb(160, 9, 9), rgb(80, 69, 48), rgb(153, 3, 3)); }
+  25% { background: linear-gradient(to right, rgb(157, 135, 95), rgb(100, 100, 72), black); }
+  50% { background: linear-gradient(to right, rgb(216, 5, 93), black, rgb(7, 7, 97)); }
+  75% { background: linear-gradient(to right, black, rgba(4, 4, 187, 0.664), red); }
+  100% { background: linear-gradient(to right, rgb(44, 44, 99), red, rgb(144, 107, 39)); }
+}
+
+/* Custom class for hover effect */
+/* .hover\:animate-gradient:hover { */
+  /* animation: gradientAnimation 2s infinite linear; */
+/* }  */

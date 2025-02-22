@@ -2,7 +2,11 @@ import React from 'react'
 import Header from './components/header'
 import VideoBackground from './components/video'
 import Footer from './components/footer'
+
 const Home = () => {
+
+
+
   return (
     <div>
     <div>
