@@ -1,7 +1,11 @@
 import React from 'react'
-import Header from './components/header'
-import VideoBackground from './components/video'
+import Navbar from './components/header'
+
 import Footer from './components/footer'
+import  Gallery4  from '../components/gallery4'
+import { Products } from '@/components/products'
+import EcommerceSection from '@/components/all-products'
+
 
 const Home = () => {
 
@@ -10,9 +14,11 @@ const Home = () => {
   return (
     <div>
     <div>
-      <Header />
-      <VideoBackground/>
-      <Footer />
+      <Navbar />
+      <Gallery4 />{/*  Gallery4 yahan add kiya */}
+      <EcommerceSection/>
+      <Products/>
+            <Footer/>
     </div>
   </div>
   )
@@ -22,7 +28,22 @@ export default Home
 
 
 
-
+// Main Page
+// export default function Home() {
+//   return (
+//     <div>
+//       <Head>
+//         <title>Malbusaat - Fashion Store</title>a&$ A
+//         <meta name="description" content="Shop t2 he latest fashion trends at Malbusaat." />
+//         <link rel="icon" href="/favicon.ico" /> 
+//       </Head>
+//       <Navbar />
+//       <Hero />
+//       <ProductGrid />
+//       <Footer />
+//     </div>
+//   );
+// }
 
 
 
